@@ -1,7 +1,14 @@
 import React from 'react'
+import GlobalStyle from './globalStyle'
+import { Home } from './components/home'
 
 function App() {
-  return <>Portifolio do pedro</>
+  return (
+    <>
+      <GlobalStyle />
+      <Home />
+    </>
+  )
 }
 
 export default App
