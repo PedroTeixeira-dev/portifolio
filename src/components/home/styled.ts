@@ -1,22 +1,24 @@
 import styled from 'styled-components'
+import { colors } from 'src/colors'
 
 export const HomeS = styled.div`
   background-image: url('../../assets/images/background0.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #09090f;
+  background-color: ${colors.balckish};
   width: 100%;
   margin: 0 auto;
   height: 100%;
   z-index: 2;
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 
   section {
     display: flex;
     flex-direction: row;
+    margin-top: 40px;
 
     div {
       display: flex;
@@ -30,7 +32,7 @@ export const HomeS = styled.div`
       }
 
       p {
-        color: #ffffffb2;
+        color: ${colors.white};
         max-width: 880px;
         font-size: 18px;
         font-family: Kanit;
@@ -38,8 +40,8 @@ export const HomeS = styled.div`
       }
 
       .donwload-button {
-        background-color: #00c4ff;
-        color: #09090f;
+        background-color: ${colors.blue};
+        color: ${colors.balckish};
         width: fit-content;
         border: none;
         font-size: 16px;

@@ -1,5 +1,5 @@
-import primaryLogo from '../../assets/images/logo.png'
-import secundaryLogo from '../../assets/images/logo2.png'
+import primaryLogo from '../../assets/images/home/logo.png'
+import secundaryLogo from '../../assets/images/home/logo2.png'
 import { HeaderS } from './styled'
 
 export type Props = {

@@ -1,9 +1,9 @@
 import Header from '../header'
 import { HomeS } from './styled'
 
-import pt from '../../assets/images/PT.png'
-import profile from '../../assets/images/profile.png'
-import fundo from '../../assets/images/fundo.png'
+import pt from '../../assets/images/home/PT.png'
+import profile from '../../assets/images/home/profile.png'
+import fundo from '../../assets/images/home/fundo.png'
 
 import cv from '../../assets/cv/cv.pdf'
 
