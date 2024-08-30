@@ -9,7 +9,7 @@ import cv from '../../assets/cv/cv.pdf'
 
 export const Home = () => {
   return (
-    <HomeS>
+    <HomeS id="home">
       <img className="backgound" src={fundo} />
       <div className="container">
         <Header color="primary" active={1} />

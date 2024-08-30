@@ -23,7 +23,7 @@ import git from '../../assets/images/tecnologies/github.png'
 export const Tec = () => {
   return (
     <>
-      <div className="container">
+      <div id="tecnologies" className="container">
         <Header color="secundary" active={2} />
         <SectionS>
           <div className="text-info">

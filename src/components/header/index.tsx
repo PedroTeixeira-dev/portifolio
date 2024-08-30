@@ -17,12 +17,12 @@ const Header = ({ color = 'primary', active = 1 }: Props) => {
       <nav>
         <ul>
           <li>
-            <a className={active == 1 ? 'active' : ''} href="#">
+            <a className={active == 1 ? 'active' : ''} href="#home">
               HOME
             </a>
           </li>
           <li>
-            <a className={active == 2 ? 'active' : ''} href="#">
+            <a className={active == 2 ? 'active' : ''} href="#tecnologies">
               TECNOLOGIAS
             </a>
           </li>
