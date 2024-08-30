@@ -12,7 +12,7 @@ export const Home = () => {
     <HomeS>
       <img className="backgound" src={fundo} />
       <div className="container">
-        <Header />
+        <Header color="primary" active={1} />
         <section>
           <div>
             <img src={pt} alt="Pedro Teixeira" />

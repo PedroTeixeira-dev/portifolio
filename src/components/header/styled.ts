@@ -1,7 +1,12 @@
 import styled from 'styled-components'
 
-export const HeaderS = styled.header`
-  background-color: #09090f;
+import { colors } from '../../colors'
+
+import { Props } from '.'
+
+export const HeaderS = styled.header<Props>`
+  background-color: ${(props) =>
+    props.color == 'primary' ? colors.balckish : colors.white};
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -29,7 +34,8 @@ export const HeaderS = styled.header`
       list-style: none;
 
       a {
-        color: #ffffff;
+        color: ${(props) =>
+          props.color == 'primary' ? colors.white : colors.balckish};
         font-family: Kanit;
         size: 16px;
       }
@@ -37,10 +43,8 @@ export const HeaderS = styled.header`
   }
 
   .active {
-    border-bottom: #ffffff 2px solid;
-  }
-
-  .marginBottom {
-    margin-bottom: 2px solid #ffff;
+    border-bottom: ${(props) =>
+        props.color == 'primary' ? colors.white : colors.balckish}
+      2px solid;
   }
 `
